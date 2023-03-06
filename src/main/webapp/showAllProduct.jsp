@@ -99,9 +99,6 @@
 				<strong>Product listing</strong>
 			</h4>
 			<div class="row">
-				<div class="col-lg-4">
-					<div class="category">category</div>
-				</div>
 				<div class="col-lg-4 col-md-12 mb-4" style="height: 350px">
 					<div class="bg-image hover-zoom ripple shadow-1-strong rounded">
 						<img src="images/goldOre.jpg" class="sizeProduct" /> <a href="#!">
@@ -120,7 +117,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-12 mb-4" style="height: 350px">
+				<div class="col-lg-4 col-md-12 mb-4" style="height: 350px">
 					<div class="bg-image hover-zoom ripple shadow-1-strong rounded">
 						<img src="images/spericon.jpg" class="sizeProduct" /> <a
 							href="#!">
@@ -139,6 +136,65 @@
 						</a>
 					</div>
 				</div>
+				<div class="col-lg-4 col-md-12 mb-4" style="height: 350px">
+					<div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+						<img src="images/spericon.jpg" class="sizeProduct" /> <a
+							href="#!">
+							<div class="mask" style="margin-top: -320px; margin-left: 10px">
+								<div
+									class="d-flex justify-content-start align-items-start h-100">
+									<h5>
+										<span class="badge bg-light pt-2 ms-3 mt-3 text-dark">$123</span>
+									</h5>
+								</div>
+							</div>
+							<div class="hover-overlay">
+								<div class="mask"
+									style="background-color: rgba(253, 253, 253, 0.15);"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 mb-4" style="height: 350px">
+					<div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+						<img src="images/spericon.jpg" class="sizeProduct" /> <a
+							href="#!">
+							<div class="mask" style="margin-top: -320px; margin-left: 10px">
+								<div
+									class="d-flex justify-content-start align-items-start h-100">
+									<h5>
+										<span class="badge bg-light pt-2 ms-3 mt-3 text-dark">$123</span>
+									</h5>
+								</div>
+							</div>
+							<div class="hover-overlay">
+								<div class="mask"
+									style="background-color: rgba(253, 253, 253, 0.15);"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 mb-4" style="height: 350px">
+					<div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+						<img src="images/spericon.jpg" class="sizeProduct" /> <a
+							href="#!">
+							<div class="mask" style="margin-top: -320px; margin-left: 10px">
+								<div
+									class="d-flex justify-content-start align-items-start h-100">
+									<h5>
+										<span class="badge bg-light pt-2 ms-3 mt-3 text-dark">$123</span>
+									</h5>
+								</div>
+							</div>
+							<div class="hover-overlay">
+								<div class="mask"
+									style="background-color: rgba(253, 253, 253, 0.15);"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+
+
 			</div>
 		</div>
 	</section>

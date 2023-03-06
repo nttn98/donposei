@@ -1,27 +1,25 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+	href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&display=swap"
+	rel="stylesheet">
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
 	integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
 	crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.6.1.min.js"
-	integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-	crossorigin="anonymous"></script>
-<link
-	href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&display=swap"
-	rel="stylesheet">
-
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="css/homePage.css">
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="css/login.css">
-<link rel="icon" href="images/smallLogo.jpg" type="image/png"
+<link rel="icon" href="images/smallLogo.jpg" type="image/jpg"
 	sizes="10x10">
-<title>Login Page</title>
+<title>DonPosei</title>
 </head>
 <body>
 	<header>
@@ -92,56 +90,82 @@
 			</div>
 		</div>
 	</header>
-	<section class="ftco-section">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-12 col-lg-10">
-					<div class="wrap d-md-flex">
-						<div class="img"
-							style="background-image: url(images/smallLogo.jpg); height: 400px"></div>
-						<div class="login-wrap p-4 p-md-5">
-							<div class="d-flex">
-								<div class="w-100">
-									<h3 class="mb-4">Sign In</h3>
-								</div>
-							</div>
-							<form action="#" class="signin-form">
-								<div class="form-group mb-3">
-									<label class="label" for="name">Username</label> <input
-										type="text" class="form-control" placeholder="Username"
-										required>
-								</div>
-								<div class="form-group mb-3">
-									<label class="label" for="password">Password</label> <input
-										type="password" class="form-control" placeholder="Password"
-										required>
-								</div>
-								<div class="form-group">
-									<button type="submit"
-										class="form-control btn btn-primary rounded submit px-3">Sign
-										In</button>
-								</div>
-								<div class="form-group d-md-flex">
-									<div class="w-50 text-left">
-										<label class="checkbox-wrap checkbox-primary mb-0">Remember
-											Me <input type="checkbox" checked> <span
-											class="checkmark"></span>
-										</label>
-									</div>
-									<div class="w-50 text-md-right">
-										<a href="#">Forgot Password</a>
-									</div>
-								</div>
-							</form>
-							<p class="text-center">
-								Not a member? <a data-toggle="tab" href="#signup">Sign Up</a>
-							</p>
-						</div>
-					</div>
-				</div>
+	<div class="container">
+		<h2 style="margin-top: 20px; margin-bottom: -10px;">Best Seller</h2>
+	</div>
+	<section class="container">
+		<div class="card">
+			<div class="image">
+				<img src="images/BaroqueWheelRing.jpg" alt="BaroqueWheelRing" />
+			</div>
+			<div class="info">
+				<h2>Baroque Wheel Ring</h2>
+				<h3>$1000</h3>
+				<br>
+				<p>nhẫn Bánh Xe Baroque</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="images/BeastWeddingRing.jpg" alt="BeastWeddingRing" />
+			</div>
+			<div class="info">
+				<h2>Beast Wedding Ring</h2>
+				<h3>$2000</h3>
+				<br>
+				<p>Genuine Diamond on 18karat Rose Gold</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="images/BeastWeddingRing.jpg" alt="BeastWeddingRing" />
+			</div>
+			<div class="info">
+				<h2>Beast Wedding Ring</h2>
+				<h3>$2000</h3>
+				<br>
+				<p>Genuine Diamond on 18karat Rose Gold</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="images/BeastWeddingRing.jpg" alt="BeastWeddingRing" />
+			</div>
+			<div class="info">
+				<h2>Beast Wedding Ring</h2>
+				<h3>$2000</h3>
+				<br>
+				<p>Genuine Diamond on 18karat Rose Gold</p>
 			</div>
 		</div>
 	</section>
+
+	<div class="aboutUs">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<span class="textAboutUs">Read more</span> <img
+						src="images/aboutUs.jpg" alt="aboutUs" style="width: 750px;">
+				</div>
+				<div class="col-lg-4">
+					<h3>About Us</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and
+						typesetting industry. Lorem Ipsum has been the industry's standard
+						dummy text ever since the 1500s, when an unknown printer took a
+						galley of type and scrambled it to make a type specimen book. It
+						has survived not only five centuries, but also the leap into
+						electronic typesetting, remaining essentially unchanged. It was
+						popularised in the 1960s with the release of Letraset sheets
+						containing Lorem Ipsum passages, and more recently with desktop
+						publishing software like Aldus PageMaker including versions of
+						Lorem Ipsum electronic typesetting, remaining essentially
+						unchanged. It was popularised in the 1960s with the release of
+						Letraset sheets containing Lorem Ipsum passages, and more recently
+						with desktop publishing software like Aldus PageMaker including</p>
+				</div>
+			</div>
+		</div>
+	</div>
 	<footer>
 		<div class="footer">
 			<div class="container">
@@ -169,32 +193,38 @@
 			</div>
 		</div>
 	</footer>
-
+	<div class="scroll-top">
+		<div class="scroll-icon">
+			<a href="#" rel="nofollow" title=" "><i class="fa fa-angle-up"
+				id="go-top-btn" style="color: white; margin-top: 10px"></i></a>
+		</div>
+	</div>
 
 	<script type="text/javascript">
-		$(document).ready(
-				function() {
-					$(".bottomHeader .mobileMenu .wrapper .button-menu").click(
-							function() {
-								$(".mobile-nav").show("slow");
-							});
-					$(".bottomHeader .mobileMenu .wrapper li span.del").click(
-							function() {
-								$(".mobile-nav").hide("slow");
-							});
-				});
+		$(document).ready(function() {
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 50) {
+					$(".scroll-top").fadeIn();
+				} else {
+					$(".scroll-top").fadeOut();
+				}
+			});
+
+			$(".scroll-top").on("click", function() {
+				$("html, body").animate({
+					scrollTop : 0
+				}, 400);
+			});
+		});
 	</script>
-	<script
-		src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
 	<script
 		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
 		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
 		crossorigin="anonymous"></script>
 	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-		integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+		src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+		integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
 		crossorigin="anonymous"></script>
+
 </body>
 </html>
