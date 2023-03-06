@@ -1,0 +1,275 @@
+/*desktop*/
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.topHeader .content-topHeader {
+	background-color: #F3F3F3;
+	text-align: center;
+	padding: 5px;
+	font-size: 15px;
+}
+
+.midHeader .logo {
+	height: 210px;
+	margin-left: -60px;
+}
+
+.icon-cart i, .icon-search i, .icon-account i {
+	margin-top: 100px;
+	color: black;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.icon-cart a, .icon-search a, .icon-account a {
+	text-decoration: none;
+}
+
+#search {
+	display: none;
+}
+
+.header-wrap-icon>span {
+	display: inline-block;
+	margin: 8px 5px 0;
+	position: relative;
+	transition: opacity 150ms linear;
+}
+
+.cart-menu .count-holder {
+	position: absolute;
+	margin-top: 96px;
+	margin-left: -20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.cart-menu .count-holder .count {
+	color: #330033;
+}
+
+.hover-underline-animation {
+	display: inline-block;
+	position: relative;
+	color: #0087ca;
+}
+
+.hover-underline-animation:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #666666;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.bottomHeader .list-desktopMenu {
+	list-style: none;
+	text-align: center;
+}
+
+.bottomHeader .list-desktopMenu>li {
+	display: inline-block;
+	padding: 5px 25px 5px 25px;
+}
+
+.bottomHeader .list-desktopMenu>li>a {
+	text-decoration: none;
+	color: black;
+}
+
+.bottomHeader .list-desktopMenu>li>a:hover {
+	color: red;
+}
+
+.bottomHeader .sub-desktopMenu {
+	z-index: 1;
+}
+
+.bottomHeader .sub-desktopMenu>li {
+	display: none;
+}
+
+.bottomHeader .desktopMenu .list-desktopMenu li:hover .sub-desktopMenu {
+	position: absolute;
+}
+
+.bottomHeader .desktopMenu .list-desktopMenu li:hover .sub-desktopMenu>li
+	{
+	display: block;
+	text-align: left;
+	padding-top: 5px;
+	margin-left: -35px;
+}
+
+.bottomHeader .desktopMenu .list-desktopMenu li:hover .sub-desktopMenu>li>a
+	{
+	color: black;
+	text-decoration: none;
+	display: block;
+	background-color: white;
+	padding: 5px;
+	width: 74.84px;
+	height: 23.99px;
+	margin-left: -5px;
+}
+
+.bottomHeader .desktopMenu .list-desktopMenu li:hover .sub-desktopMenu>li>a:hover
+	{
+	color: red;
+}
+
+/*body*/
+section.container {
+	width: 100%;
+	height: 35vh;
+	display: flex;
+	/* justify-content: space-around; */
+	align-items: center;
+	flex-flow: row wrap;
+	position: relative;
+}
+
+section.container .card {
+	width: 20%;
+	height: 12em;
+	box-shadow: 0 0 15px black, -5px 5px 20px black;
+	border-radius: 1.2em;
+	position: relative;
+	margin-left: 45px;
+}
+
+section.container .card .info {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1em;
+	transition: 0.8s;
+	transition-delay: 0.4s;
+}
+
+section.container .card:hover .info {
+	background-color: black;
+	color: white;
+	border-radius: 1.2em;
+}
+
+section.container .card .info h2 {
+	width: fit-content;
+	font-size: 1em;
+	text-transform: capitalize;
+	position: relative;
+	margin-top: 4px;
+}
+
+section.container .card .info h2::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.1em;
+	background-color: black;
+	transition: 0.8s;
+	transition-delay: 0.4s;
+}
+
+section.container .card:hover .info h2::after {
+	background-color: white;
+}
+
+section.container .card .info h3 {
+	margin-top: 20px;
+	position: absolute;
+	right: 5%;
+	top: 20%;
+	font-size: 0.9em;
+	color: black;
+	text-shadow: 0 0 8px black;
+	transition: 0.5s;
+	transition-delay: 0.4s;
+}
+
+section.container .card:hover .info h3 {
+	color: white;
+	text-shadow: 0 0 8px white;
+}
+
+section.container .card .info p {
+	width: 80%;
+	line-height: 1.5;
+	margin-top: 2em;
+	font-size: 0.8em;
+}
+
+section.container .card .image {
+	width: 99%;
+	height: 98%;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 1.2em;
+	transition: 0.7s;
+	z-index: 1;
+}
+
+section.container .card .image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+section.container .card:hover .image {
+	left: 100%;
+	top: 90%;
+	width: 25%;
+	height: 60%;
+}
+
+/* aboutUs */
+div.aboutUs {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+span.textAboutUs {
+	color: white;
+	position: absolute;
+	font-weight: 600;
+	font-size: 23px;
+	align-content: center;
+	margin-top: 300px;
+	margin-left: 300px;
+	border: 1px solid;
+	padding: 5px;
+}
+/* scroll-top */
+.scroll-top {
+	border-radius: 50%;
+	position: fixed;
+	bottom: 10px;
+	right: 15px;
+	font-size: 19.5px;
+	line-height: 45px;
+	width: 45px;
+	height: 45px;
+	border: none;
+	background: black;
+	text-align: center;
+	cursor: pointer;
+}
