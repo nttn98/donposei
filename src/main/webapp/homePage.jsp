@@ -39,7 +39,7 @@
 					<div class="row">
 						<div class="col-lg-10 col-sm-12 col-md-12 ">
 							<div class="logo">
-								<a href="#"><img src="images/logo.jpg" alt="logo"
+								<a href="homePage.jsp"><img src="images/logo.jpg" alt="logo"
 									class="logo"></a>
 							</div>
 						</div>

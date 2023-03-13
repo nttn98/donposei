@@ -105,16 +105,16 @@
 									<h3 class="mb-4">Sign In</h3>
 								</div>
 							</div>
-							<form action="#" class="signin-form">
+							<form action="login" class="signin-form" method="post">
 								<div class="form-group mb-3">
-									<label class="label" for="name">Username</label> <input
-										type="text" class="form-control" placeholder="Username"
-										required>
+									<label class="label" for="name">Account</label> <input
+										type="text" class="form-control" placeholder="account"
+										required name="account">
 								</div>
 								<div class="form-group mb-3">
 									<label class="label" for="password">Password</label> <input
 										type="password" class="form-control" placeholder="Password"
-										required>
+										required name="password">
 								</div>
 								<div class="form-group">
 									<button type="submit"
@@ -134,7 +134,7 @@
 								</div>
 							</form>
 							<p class="text-center">
-								Not a member? <a data-toggle="tab" href="#signup">Sign Up</a>
+								Not a member? <a href="register.jsp">Sign Up</a>
 							</p>
 						</div>
 					</div>

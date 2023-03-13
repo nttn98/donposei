@@ -26,8 +26,7 @@
 <body>
 	<section class="bg-dark">
 		<div class="container">
-			<div
-				class="row d-flex justify-content-center align-items-center">
+			<div class="row d-flex justify-content-center align-items-center">
 				<div class="col">
 					<div class="card card-registration my-4">
 						<div class="row g-0">
@@ -37,49 +36,55 @@
 									style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
 							</div>
 							<div class="col-xl-6">
-								<div class="card-body p-md-5 text-black">
-									<h3 class="mb-5">Registration form</h3>
+								<form action="register" method="post">
+								
+									<div class="card-body p-md-5 text-black">
+										<h3 class="mb-5">Registration form</h3>
 
-									<div class="row">
-										<div class="col-md-6 mb-4">
-											<div class="form-outline">
-												<label class="form-label" for="form3Example1m">Nick
-													name:</label> <input type="text" id="form3Example1m"
-													class="form-control form-control-lg" />
+										<div class="row">
+											<div class="col-md-6 mb-4">
+												<div class="form-outline">
+													<label class="form-label" for="form3Example1m">User
+														name:</label> <input type="text" id="form3Example1m"
+														class="form-control form-control-lg" required
+														name="username" />
+												</div>
 											</div>
 										</div>
-									</div>
-									<div class="form-outline mb-4">
-										<label class="form-label" for="form3Example9">Account:</label>
-										<input type="text" id="form3Example9"
-											class="form-control form-control-lg" />
+										<div class="form-outline mb-4">
+											<label class="form-label" for="form3Example9">Account:</label>
+											<input type="text" id="form3Example9"
+												class="form-control form-control-lg" required name="account" />
+										</div>
+
+										<div class="form-outline mb-4">
+											<label class="form-label" for="form3Example90">Password:</label>
+											<input type="password" id="form3Example90"
+												class="form-control form-control-lg" required
+												name="password" />
+										</div>
+
+										<div class="form-outline mb-4">
+											<label class="form-label" for="form3Example99">Repeat
+												your password:</label> <input type="text" required
+												id="form3Example99" class="form-control form-control-lg" />
+										</div>
+
+										<div class="form-outline mb-4">
+											<label class="form-label" for="form3Example97">Email</label>
+											<input type="email" id="form3Example97"
+												class="form-control form-control-lg" required name="email" />
+										</div>
+
+										<div class="d-flex justify-content-end pt-3">
+											<button type="button" class="btn btn-light btn-lg mr-4">Reset
+												all</button>
+											<button type="submit" class="btn btn-warning btn-lg ms-2">Register</button>
+										</div>
+
 									</div>
 
-									<div class="form-outline mb-4">
-										<label class="form-label" for="form3Example90">Password:</label>
-										<input type="text" id="form3Example90"
-											class="form-control form-control-lg" />
-									</div>
-
-									<div class="form-outline mb-4">
-										<label class="form-label" for="form3Example99">Repeat
-											your password:</label> <input type="text" id="form3Example99"
-											class="form-control form-control-lg" />
-									</div>
-
-									<div class="form-outline mb-4">
-										<label class="form-label" for="form3Example97">Email
-											ID</label> <input type="email" id="form3Example97"
-											class="form-control form-control-lg" />
-									</div>
-
-									<div class="d-flex justify-content-end pt-3">
-										<button type="button" class="btn btn-light btn-lg mr-4">Reset
-											all</button>
-										<button type="button" class="btn btn-warning btn-lg ms-2">Register</button>
-									</div>
-
-								</div>
+								</form>
 							</div>
 						</div>
 					</div>
